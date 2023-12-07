@@ -3,5 +3,11 @@
 import ipdb
 
 def plus_two(num):
-    num + 2
-    return num
+    result = num + 2
+    return result
+
+def test_plus_two():
+    assert plus_two(3) == 5
+
+# Run the test function
+test_plus_two()
